@@ -1,0 +1,878 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ov",
+				"overflow-y"
+			],
+			[
+				"tab",
+				"table-layout"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"co",
+				"contact.html"
+			],
+			[
+				"pa",
+				"page-portfolio.php"
+			],
+			[
+				"po",
+				"portfolio-page.php"
+			],
+			[
+				"c",
+				"contact.html"
+			],
+			[
+				"in",
+				"investment.html"
+			],
+			[
+				"por",
+				"pos-r	position: relative;"
+			],
+			[
+				"mh",
+				"min-height"
+			],
+			[
+				"content",
+				"content-4.less"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"con",
+				"content-2.less"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"bo",
+				"bootstrap.less"
+			],
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"s",
+				"sprite.less"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"on",
+				"on"
+			],
+			[
+				"ove",
+				"overflow-x"
+			],
+			[
+				"medi",
+				"media	less-media"
+			],
+			[
+				"med",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "less",
+		"selected_items":
+		[
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"expa",
+				"Format CSS: Expanded"
+			],
+			[
+				"gulp",
+				"Snippet: gulp.task('name',function)"
+			],
+			[
+				"togglee",
+				"ToggleExclude: Conditional File / Folder Patterns: Enable"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"mo",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"hy",
+				"Hyperlink Helper: Link to Wikipedia Page for Selection"
+			],
+			[
+				"snippet col",
+				"Snippet: css-color"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/user/Desktop/1 Airport/index.html",
+		"/Users/user/Desktop/1 Airport/less/custom.less",
+		"/Users/user/Desktop/1 Airport/.gitignore",
+		"/Users/user/Desktop/1 Airport/less/variables.less",
+		"/Users/user/Desktop/1 Airport/less/style.less",
+		"/Users/user/Desktop/1 Airport/less/sprite.less",
+		"/Users/user/Desktop/1 Airport/gulpfile.js",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/page-header-hospitals.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/front-page.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/page-services-contacts.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/page-cables-animals.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/page-armies-tunnelling.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/services-contacts.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/cables-animals.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/header-hospitals.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/armies-tunnelling.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/footer.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/js/scripts.js",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/header.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/less/header.less",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/3EC612F5-AD50-450D-B66E-63866BC6B2E8/scroll.tpl",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/D0789228-0E1B-4016-8093-C0616F520A72/scroll.js",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/faq.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-other.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/template.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-contact.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/contact.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-about.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/aboutus.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-blog.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/investment.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-investment.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/blog.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/less/bootstrap.less",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-portfolio.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/portfolio.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/less/custom.less",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/sidebar.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/index.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/front-page.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/404.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/.htaccess",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/.htaccess",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/blog-page.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/less/blog-page.less",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/header.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/gulpfile.js",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/index.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/functions.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/less/sprite-retina.less",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/less/investment.less",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/less/style.less",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/config.codekit",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/single.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/css/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/inc/custom-header.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/inc/customizer.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/inc/extras.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/inc/template-tags.php",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/CAA66578-49F9-4AA5-8183-56ACAC4343F9/functions.php",
+		"/Users/user/Desktop/knight-and-dame/gulpfile.js",
+		"/Users/user/Desktop/knight-and-dame/package.json",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/9558912F-AB53-48ED-A706-E4DB637860CF/functions.php",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/E8918511-DE29-4640-AB29-57A2571A0E13/functions.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/knight-and-dame.sublime-workspace",
+		"/Users/user/Desktop/knight-and-dame/less/faq.less",
+		"/Users/user/Desktop/knight-and-dame/faq.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/.gitignore",
+		"/Users/user/Desktop/knight-and-dame/js/scripts.js",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/5C40B11B-F073-43B7-B794-CC319280FCE1/faq.tpl",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/AC9616DF-AAAC-4797-A0C5-96A9E7D2B025/scripts.js",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/F0B2738D-AA5A-49C4-AAE7-EEA1B74EB215/scripts.js",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/CF18E7BE-77F8-4524-B321-7C932FCEEAB7/faq.tpl",
+		"/Users/user/Desktop/knight-and-dame/less/custom.less",
+		"/Users/user/Desktop/knight-and-dame/investment.html",
+		"/Users/user/Desktop/knight-and-dame/index.html",
+		"/Users/user/Desktop/knight-and-dame/contact.html",
+		"/Users/user/Desktop/knight-and-dame/less/contact.less",
+		"/Users/user/Desktop/knight-and-dame/less/style.less",
+		"/Users/user/Desktop/ButtonStylesInspiration/index.html",
+		"/Users/user/Desktop/ButtonStylesInspiration/css/buttons.css",
+		"/Users/user/Desktop/ButtonStylesInspiration/css/base.css",
+		"/Users/user/Desktop/knight-and-dame/less/investment.less",
+		"/Users/user/Desktop/knight-and-dame/less/sidebar.less",
+		"/Users/user/Desktop/knight-and-dame/blog.html",
+		"/Users/user/Desktop/knight-and-dame/portfolio.html",
+		"/Users/user/Desktop/knight-and-dame/less/portfolio.less",
+		"/Users/user/Desktop/knight-and-dame/less/single.less",
+		"/Users/user/Desktop/knight-and-dame/single.html",
+		"/Users/user/Desktop/knight-and-dame/less/bootstrap.less",
+		"/Users/user/Desktop/knight-and-dame/less/footer.less",
+		"/Users/user/Desktop/knight-and-dame/less/header.less",
+		"/Users/user/Desktop/knight-and-dame/less/blog.less",
+		"/Users/user/Desktop/knight-and-dame/less/variables.less",
+		"/Users/user/Desktop/knight-and-dame/less/sprite.less",
+		"/Users/user/Desktop/knight-and-dame/aboutus.html",
+		"/Users/user/Desktop/knight-and-dame/less/aboutus.less",
+		"/Users/user/Desktop/single.php",
+		"/Users/user/Desktop/knight-and-dame/less/content-3.less",
+		"/Users/user/Desktop/knight-and-dame/less/content-4.less",
+		"/Users/user/Desktop/knight-and-dame/less/content-5.less",
+		"/Users/user/Desktop/knight-and-dame/less/content-2.less",
+		"/Users/user/Desktop/knight-and-dame/less/content-1.less",
+		"/Users/user/Desktop/css/bootstrap.css",
+		"/Users/user/Desktop/config.json",
+		"/Users/user/Desktop/bootstrap-3.3.5/less/grid.less",
+		"/Users/user/Desktop/bootstrap-3.3.5/less/mixins/grid.less",
+		"/Users/user/Desktop/bootstrap.css",
+		"/Users/user/Desktop/bootstrap-3.3.5/less/media.less",
+		"/Users/user/Desktop/knight-and-dame/.gitignore",
+		"/Users/user/Desktop/Learn JS/!gulpfile.js",
+		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/assets/javascripts/script.js",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/sass/style.scss",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/assets/stylesheets/css/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/footer.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/functions.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/plugins/contact-form-7/admin/css/styles.css",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/plugins/contact-form-7/admin/css/styles-rtl.css",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/plugins/contact-form-7/includes/css/styles.css",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/A84C6A56-E3A0-4131-9A38-1905AD1AB895/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/CE1FA418-E0BF-424F-A55E-A005BFB29E20/.htaccess",
+		"/Users/user/Desktop/.htaccess"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"737-800",
+			"74Y",
+			"74",
+			"airport",
+			"common",
+			"checkbox-1",
+			"airport__item",
+			"td",
+			"airport__item",
+			"2",
+			"over",
+			"inner",
+			"td",
+			"div",
+			"td",
+			"</td>",
+			"<td class=\"airport__item\">",
+			"gray",
+			"red",
+			"airport__item",
+			"threed",
+			"icon-activ",
+			"h",
+			"<?php echo home_url(); ?>/portfolio-page",
+			"<?php echo home_url(); ?>/blog-page",
+			"portfolio",
+			"/blog-page",
+			"<?php bloginfo('template_url') ?>/",
+			"blog",
+			"<li>",
+			"faq-active",
+			"h3",
+			"cont",
+			"$(this)",
+			"speed",
+			"_this",
+			"faq",
+			"cont",
+			"h3",
+			"cont",
+			"button--wayra",
+			"bg-1",
+			"button--size-s",
+			"button--text-upper",
+			"button--border-thick",
+			"Wayra",
+			"contact-form__group--wide",
+			"contact-form__group",
+			"select",
+			"sidebar",
+			"slim-header-navigation",
+			"p",
+			"rotate",
+			"16",
+			"investment__cell",
+			"col-lg-6 ",
+			"block",
+			"value",
+			"key",
+			"sidebar",
+			"100",
+			"section",
+			"categ",
+			"<li>",
+			"__",
+			"sidebar-social__btn",
+			"featured",
+			"sidebar__social",
+			"div",
+			"row",
+			" solid #fff",
+			"border",
+			"photo",
+			"portfolio__cell\"",
+			"portfolio__cell",
+			"WEDDING",
+			"portfolio__text",
+			"col-lg-4",
+			"</span>",
+			"<span>",
+			"div",
+			"</div>",
+			"<div class=\"col-lg-3\">",
+			"after",
+			"title--arrow",
+			"arrow",
+			"p",
+			"content-3__section",
+			"content-1__section-center-post",
+			"3",
+			"slim-header-navigation__social-link",
+			"slim-header-navigation__social-item",
+			"list-item",
+			"<a href=\"\">",
+			"item",
+			"-",
+			"__",
+			"navigation",
+			"f=\"\"",
+			"<li>",
+			"header-main__li",
+			"<a href=\"\">",
+			"</a>",
+			"logo",
+			"container-f",
+			"screen-sm-min",
+			"head",
+			"16",
+			"cables",
+			"fluids",
+			"cables",
+			"fluid",
+			"1024x605",
+			"small-gallery",
+			"company",
+			".parent()",
+			"inp-required",
+			"inp-highlight",
+			"lighten",
+			"inp-highlight",
+			"contact-for",
+			"fsg-item",
+			"animals",
+			"fsg-item",
+			"req",
+			"input",
+			"form",
+			"wpcf7-form-control"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"blog-page"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "task_1.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"va",
+				"less/variables.less"
+			],
+			[
+				"sty",
+				"less/style.less"
+			],
+			[
+				"s",
+				"less/sprite.less"
+			],
+			[
+				"st",
+				"less/style.less"
+			],
+			[
+				"gu",
+				"gulpfile.js"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"hea",
+				"page-header-hospitals.php"
+			],
+			[
+				"se",
+				"services-contacts.php"
+			],
+			[
+				"cab",
+				"cables-animals.php"
+			],
+			[
+				"a",
+				"armies-tunnelling.php"
+			],
+			[
+				"fr",
+				"front-page.php"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"sc",
+				"js/scripts.js"
+			],
+			[
+				"he",
+				"header.php"
+			],
+			[
+				"oth",
+				"page-other.php"
+			],
+			[
+				"f",
+				"faq.html"
+			],
+			[
+				"conta",
+				"contact.html"
+			],
+			[
+				"contac",
+				"page-contact.php"
+			],
+			[
+				"inve",
+				"investment.html"
+			],
+			[
+				"inv",
+				"page-investment.php"
+			],
+			[
+				"te",
+				"template.php"
+			],
+			[
+				"bl",
+				"page-blog.php"
+			],
+			[
+				"abo",
+				"about-page.php"
+			],
+			[
+				"boo",
+				"less/bootstrap.less"
+			],
+			[
+				"cu",
+				"less/custom.less"
+			],
+			[
+				"po",
+				"page-portfolio.php"
+			],
+			[
+				"fro",
+				"front-page.php"
+			],
+			[
+				"blo",
+				"blog-page.php"
+			],
+			[
+				"les",
+				"less/custom.less"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"fu",
+				"functions.php"
+			],
+			[
+				"fo",
+				"footer.php"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"foote",
+				"footer.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"scr",
+				"js/scripts.js"
+			],
+			[
+				"fa",
+				"less/faq.less"
+			],
+			[
+				"side",
+				"less/sidebar.less"
+			],
+			[
+				"sid",
+				"less/sidebar.less"
+			],
+			[
+				"con",
+				"less/contact.less"
+			],
+			[
+				"blog",
+				"blog.html"
+			],
+			[
+				"por",
+				"portfolio.html"
+			],
+			[
+				"si",
+				"single.html"
+			],
+			[
+				"bo",
+				"less/bootstrap.less"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"3",
+				"less/content-3.less"
+			],
+			[
+				"ab",
+				"less/aboutus.less"
+			],
+			[
+				"4",
+				"less/content-4.less"
+			],
+			[
+				"5",
+				"less/content-5.less"
+			],
+			[
+				"2",
+				"less/content-2.less"
+			],
+			[
+				"1",
+				"less/content-1.less"
+			],
+			[
+				"cus",
+				"less/custom.less"
+			],
+			[
+				"spr",
+				"less/sprite.less"
+			],
+			[
+				"sp",
+				"less/sprite.less"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"gi",
+				".gitignore"
+			],
+			[
+				"styl",
+				"style.css"
+			],
+			[
+				"css",
+				"style.css"
+			],
+			[
+				"7",
+				"less/content-block-7.less"
+			],
+			[
+				"footer",
+				"less/footer.less"
+			],
+			[
+				"ma",
+				"less/main.less"
+			],
+			[
+				"heade",
+				"header.php"
+			],
+			[
+				"jum",
+				"less/jumbotron.less"
+			],
+			[
+				"fus",
+				"functions.php"
+			],
+			[
+				"6",
+				"less/content-block-6.less"
+			],
+			[
+				"10",
+				"less/content-block-10.less"
+			],
+			[
+				"8",
+				"less/content-block-8.less"
+			],
+			[
+				"9",
+				"less/content-block-9.less"
+			],
+			[
+				"ju",
+				"less/jumbotron.less"
+			],
+			[
+				"j",
+				"less/jumbotron.less"
+			],
+			[
+				"sy",
+				"style.css"
+			],
+			[
+				"le",
+				"less/custom.less"
+			],
+			[
+				"v",
+				"less/variables.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/knight-and-dame.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

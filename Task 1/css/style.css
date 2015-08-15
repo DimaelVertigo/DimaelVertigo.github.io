@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*=====================================
+=            Custom styles            =
+=====================================*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clear {
+  clear: both;
+}
+html,
+body {
+  height: 100%;
+  color: #000000;
+}
+* {
+  box-sizing: border-box;
+}
+.f_clear {
+  height: auto;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.fixed-table,
+.scroll__table {
+  table-layout: fixed;
+}
+.scroll {
+  overflow-y: scroll;
+  height: 680px;
+}
+.scroll__table {
+  overflow: hidden;
+}
+.airport {
+  margin: 0 auto;
+  text-align: center;
+  font: 14px 'Open Sans';
+  width: 1150px;
+}
+.airport__row {
+  position: relative;
+}
+.airport__row:first-child {
+  font-weight: 600;
+}
+.airport__row:nth-child(1) .airport__item {
+  border-top: 0;
+}
+.airport__row:nth-child(odd) .airport__item::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightgray;
+  z-index: -2;
+}
+.airport__row:hover,
+.airport__row:focus {
+  background-color: lightgreen;
+}
+.airport__row--header:nth-child(odd) .airport__item::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: -2;
+}
+.airport__item {
+  position: relative;
+  border: 1px solid #000;
+  vertical-align: middle;
+  padding: 5px 0;
+}
+.airport__item:hover::after {
+  content: '';
+  position: absolute;
+  background-color: lightgreen;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+.airport__item:first-letter {
+  text-transform: uppercase;
+}
+.airport__item:nth-child(1) {
+  border-top: 0;
+  width: 84px;
+}
+.airport__item:nth-child(2) {
+  width: 84px;
+}
+.airport__item:nth-child(3) {
+  width: 120px;
+}
+@media only screen and (min-width: 900px) and (max-width: 1149px) {
+  .airport__item:nth-child(3) {
+    display: none;
+  }
+}
+.airport__item:nth-child(4) {
+  width: 180px;
+}
+.airport__item:nth-child(5) {
+  width: 100px;
+}
+.airport__item:nth-child(6) {
+  width: 180px;
+}
+.airport__item:nth-child(7) {
+  width: 100px;
+}
+.airport__item:nth-child(8) {
+  width: 100px;
+}
+.airport__item:nth-child(9) {
+  width: 200px;
+}
+.airport__inner {
+  left: 0;
+  min-height: 33px;
+}
+.airport label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.airport__radio-button {
+  display: none;
+}
+.airport__radio-button:checked ~ .airport__popup {
+  display: block;
+}
+.airport__popup {
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  background-color: lightgreen;
+  color: #000;
+  width: 500px;
+  margin-left: -250px;
+  padding: 50px;
+  z-index: 1;
+  text-align: center;
+  border: 1px solid #000;
+}
+.airport__img {
+  margin: 0 auto;
+}
+.airport__img--british-airways {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -30px;
+  width: 100px;
+  height: 30px;
+}
+.fulltext {
+  display: none;
+}
+.shorttext {
+  display: block;
+}
+@media only screen and (min-width: 1150px) {
+  .fulltext {
+    display: block;
+  }
+  .shorttext {
+    display: none;
+  }
+}
+/*-----  End of Custom styles  ------*/
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/

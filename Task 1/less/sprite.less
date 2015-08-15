@@ -1,0 +1,249 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@ba-name: ba;
+@ba-x: 0px;
+@ba-y: 30px;
+@ba-offset-x: 0px;
+@ba-offset-y: -30px;
+@ba-width: 100px;
+@ba-height: 30px;
+@ba-total-width: 300px;
+@ba-total-height: 180px;
+@ba-image: '../img/sprite.png';
+@ba: 0px 30px 0px -30px 100px 30px 300px 180px '../img/sprite.png' ba;
+@brussels-airlines-name: brussels_airlines;
+@brussels-airlines-x: 0px;
+@brussels-airlines-y: 120px;
+@brussels-airlines-offset-x: 0px;
+@brussels-airlines-offset-y: -120px;
+@brussels-airlines-width: 100px;
+@brussels-airlines-height: 30px;
+@brussels-airlines-total-width: 300px;
+@brussels-airlines-total-height: 180px;
+@brussels-airlines-image: '../img/sprite.png';
+@brussels-airlines: 0px 120px 0px -120px 100px 30px 300px 180px '../img/sprite.png' brussels_airlines;
+@cathaypacific-name: cathaypacific;
+@cathaypacific-x: 0px;
+@cathaypacific-y: 60px;
+@cathaypacific-offset-x: 0px;
+@cathaypacific-offset-y: -60px;
+@cathaypacific-width: 100px;
+@cathaypacific-height: 30px;
+@cathaypacific-total-width: 300px;
+@cathaypacific-total-height: 180px;
+@cathaypacific-image: '../img/sprite.png';
+@cathaypacific: 0px 60px 0px -60px 100px 30px 300px 180px '../img/sprite.png' cathaypacific;
+@china-airlines-name: china_airlines;
+@china-airlines-x: 100px;
+@china-airlines-y: 0px;
+@china-airlines-offset-x: -100px;
+@china-airlines-offset-y: 0px;
+@china-airlines-width: 100px;
+@china-airlines-height: 30px;
+@china-airlines-total-width: 300px;
+@china-airlines-total-height: 180px;
+@china-airlines-image: '../img/sprite.png';
+@china-airlines: 100px 0px -100px 0px 100px 30px 300px 180px '../img/sprite.png' china_airlines;
+@continental-airlines-name: continental-airlines;
+@continental-airlines-x: 100px;
+@continental-airlines-y: 30px;
+@continental-airlines-offset-x: -100px;
+@continental-airlines-offset-y: -30px;
+@continental-airlines-width: 100px;
+@continental-airlines-height: 30px;
+@continental-airlines-total-width: 300px;
+@continental-airlines-total-height: 180px;
+@continental-airlines-image: '../img/sprite.png';
+@continental-airlines: 100px 30px -100px -30px 100px 30px 300px 180px '../img/sprite.png' continental-airlines;
+@dagonair-name: dagonair;
+@dagonair-x: 100px;
+@dagonair-y: 60px;
+@dagonair-offset-x: -100px;
+@dagonair-offset-y: -60px;
+@dagonair-width: 100px;
+@dagonair-height: 30px;
+@dagonair-total-width: 300px;
+@dagonair-total-height: 180px;
+@dagonair-image: '../img/sprite.png';
+@dagonair: 100px 60px -100px -60px 100px 30px 300px 180px '../img/sprite.png' dagonair;
+@icelandair-name: icelandair;
+@icelandair-x: 0px;
+@icelandair-y: 90px;
+@icelandair-offset-x: 0px;
+@icelandair-offset-y: -90px;
+@icelandair-width: 100px;
+@icelandair-height: 30px;
+@icelandair-total-width: 300px;
+@icelandair-total-height: 180px;
+@icelandair-image: '../img/sprite.png';
+@icelandair: 0px 90px 0px -90px 100px 30px 300px 180px '../img/sprite.png' icelandair;
+@klm-name: klm;
+@klm-x: 100px;
+@klm-y: 90px;
+@klm-offset-x: -100px;
+@klm-offset-y: -90px;
+@klm-width: 100px;
+@klm-height: 30px;
+@klm-total-width: 300px;
+@klm-total-height: 180px;
+@klm-image: '../img/sprite.png';
+@klm: 100px 90px -100px -90px 100px 30px 300px 180px '../img/sprite.png' klm;
+@lufthansa-name: lufthansa;
+@lufthansa-x: 0px;
+@lufthansa-y: 0px;
+@lufthansa-offset-x: 0px;
+@lufthansa-offset-y: 0px;
+@lufthansa-width: 100px;
+@lufthansa-height: 30px;
+@lufthansa-total-width: 300px;
+@lufthansa-total-height: 180px;
+@lufthansa-image: '../img/sprite.png';
+@lufthansa: 0px 0px 0px 0px 100px 30px 300px 180px '../img/sprite.png' lufthansa;
+@nwa-name: nwa;
+@nwa-x: 100px;
+@nwa-y: 120px;
+@nwa-offset-x: -100px;
+@nwa-offset-y: -120px;
+@nwa-width: 100px;
+@nwa-height: 30px;
+@nwa-total-width: 300px;
+@nwa-total-height: 180px;
+@nwa-image: '../img/sprite.png';
+@nwa: 100px 120px -100px -120px 100px 30px 300px 180px '../img/sprite.png' nwa;
+@sabena-name: sabena;
+@sabena-x: 0px;
+@sabena-y: 150px;
+@sabena-offset-x: 0px;
+@sabena-offset-y: -150px;
+@sabena-width: 100px;
+@sabena-height: 30px;
+@sabena-total-width: 300px;
+@sabena-total-height: 180px;
+@sabena-image: '../img/sprite.png';
+@sabena: 0px 150px 0px -150px 100px 30px 300px 180px '../img/sprite.png' sabena;
+@singapore-airlines2-name: singapore_airlines2;
+@singapore-airlines2-x: 100px;
+@singapore-airlines2-y: 150px;
+@singapore-airlines2-offset-x: -100px;
+@singapore-airlines2-offset-y: -150px;
+@singapore-airlines2-width: 100px;
+@singapore-airlines2-height: 30px;
+@singapore-airlines2-total-width: 300px;
+@singapore-airlines2-total-height: 180px;
+@singapore-airlines2-image: '../img/sprite.png';
+@singapore-airlines2: 100px 150px -100px -150px 100px 30px 300px 180px '../img/sprite.png' singapore_airlines2;
+@southafricanairways2-name: southafricanairways2;
+@southafricanairways2-x: 200px;
+@southafricanairways2-y: 0px;
+@southafricanairways2-offset-x: -200px;
+@southafricanairways2-offset-y: 0px;
+@southafricanairways2-width: 100px;
+@southafricanairways2-height: 30px;
+@southafricanairways2-total-width: 300px;
+@southafricanairways2-total-height: 180px;
+@southafricanairways2-image: '../img/sprite.png';
+@southafricanairways2: 200px 0px -200px 0px 100px 30px 300px 180px '../img/sprite.png' southafricanairways2;
+@southwest2-name: southwest2;
+@southwest2-x: 200px;
+@southwest2-y: 30px;
+@southwest2-offset-x: -200px;
+@southwest2-offset-y: -30px;
+@southwest2-width: 100px;
+@southwest2-height: 30px;
+@southwest2-total-width: 300px;
+@southwest2-total-height: 180px;
+@southwest2-image: '../img/sprite.png';
+@southwest2: 200px 30px -200px -30px 100px 30px 300px 180px '../img/sprite.png' southwest2;
+@spirit-name: spirit;
+@spirit-x: 200px;
+@spirit-y: 60px;
+@spirit-offset-x: -200px;
+@spirit-offset-y: -60px;
+@spirit-width: 100px;
+@spirit-height: 30px;
+@spirit-total-width: 300px;
+@spirit-total-height: 180px;
+@spirit-image: '../img/sprite.png';
+@spirit: 200px 60px -200px -60px 100px 30px 300px 180px '../img/sprite.png' spirit;
+@swiss-name: swiss;
+@swiss-x: 200px;
+@swiss-y: 90px;
+@swiss-offset-x: -200px;
+@swiss-offset-y: -90px;
+@swiss-width: 100px;
+@swiss-height: 30px;
+@swiss-total-width: 300px;
+@swiss-total-height: 180px;
+@swiss-image: '../img/sprite.png';
+@swiss: 200px 90px -200px -90px 100px 30px 300px 180px '../img/sprite.png' swiss;
+@spritesheet-width: 300px;
+@spritesheet-height: 180px;
+@spritesheet-image: '../img/sprite.png';
+@spritesheet-sprites: @ba @brussels-airlines @cathaypacific @china-airlines @continental-airlines @dagonair @icelandair @klm @lufthansa @nwa @sabena @singapore-airlines2 @southafricanairways2 @southwest2 @spirit @swiss;
+@spritesheet: 300px 180px '../img/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: extract(@sprite, 10);
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
