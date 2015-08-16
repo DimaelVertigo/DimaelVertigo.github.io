@@ -8,6 +8,10 @@
 	<link rel="stylesheet" href="css/style.css"></head>
 <body>
 	<div class="airport">
+
+		<input type="checkbox" name="filter1" id="filter1" value="value" checked class="airport__filter airport__filter--1">		
+		<input type="checkbox" name="filter2" id="filter2" value="value" checked class="airport__filter airport__filter--2">		
+
 		<table class="fixed-table">
 			<tr class="airport__row airport__row--header">
 				<td class="airport__item">тип рейса</td>
@@ -23,1410 +27,1856 @@
 		</table>
 		<div class="scroll">
 			<table class="scroll__table">
-				<tr class="airport__row">
+				<tr class="airport__row airport__row--up">
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
+						<label class="airport__label" for="checkbox-1"></label>
+						<div class="airport__status airport__status--up"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
+						<label class="airport__label" for="checkbox-1"></label>
+						S7151
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-1"></label>
 						British Airways
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-1"></label>
 						<div class="airport__img airport__img--british-airways"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-1"></label>
 						<span class="fulltext">Boeing 737-800</span>
 						<span class="shorttext">B737</span>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
+						<label class="airport__label" for="checkbox-1"></label>
+						Одесса -> Москва
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
+						<label class="airport__label" for="checkbox-1"></label>
+						16.08.2015 11:57
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
+						<label class="airport__label" for="checkbox-1"></label>
+						Вылетел
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-1"></label>
 						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
 					</td>
 					<td class="airport__trigger">
 						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
 						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
 							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+							<h2 class="airport__title">Информация о рейсе RU 681</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Одесса</p>
+							<p><b class="bold">Аэропорт назначения:</b> Москва</p>
+							<p><b class="bold">Авиакомпания:</b> British Airways</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 737-800</p>
+							<p><b class="bold">Дата начала навигации:</b> 16.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 11:57</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-101" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-101" class="airport__close-trigger"></label>
+							<input type="radio" id="checkbox-101" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-101" class="airport__close-trigger"></label>
 						</div>
 					</td>
 				</tr>
-				<tr class="airport__row">
+				<tr class="airport__row airport__row--down">
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
+						<label class="airport__label" for="checkbox-2"></label>
+						<div class="airport__status airport__status--down"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
+						<label class="airport__label" for="checkbox-2"></label>
+						EY068
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-2"></label>
 						British Airways
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
+						<label class="airport__label" for="checkbox-2"></label>
+						<div class="airport__img airport__img--brussels-airlines"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-2"></label>
+						<span class="fulltext">Airbus 320</span>
+						<span class="shorttext">А320</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-2"></label>
+						Москва(Домодедово) -> Франкфурт-На-Майне
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-2"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-2"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-2"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-2" name="1" value="2" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--brussels-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе EY068</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Франкфурт-На-Майне</p>
+							<p><b class="bold">Авиакомпания:</b> Brussels Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 320</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-102" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-102" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-3"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-3"></label>
+						OS602
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-3"></label>
+						Cathay Pacific
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-3"></label>
+						<div class="airport__img airport__img--cathaypacific"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-3"></label>
+						<span class="fulltext">Boeing 777-200</span>
+						<span class="shorttext">B777</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-3"></label>
+						Москва(Домодедово) -> Вена(Швехат)
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-3"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-3"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-3"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-3" name="1" value="3" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--cathaypacific"></div>
+							<h2 class="airport__title">Информация о рейсе OS602</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Вена(Швехат)</p>
+							<p><b class="bold">Авиакомпания:</b> Cathay Pacific</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 777-200</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 17.08.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-103" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-103" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-4"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-4"></label>
+						AB8105
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-4"></label>
+						China Airlines
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-4"></label>
+						<div class="airport__img airport__img--china-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-4"></label>
+						<span class="fulltext">Airbus 321</span>
+						<span class="shorttext">А321</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-4"></label>
+						Берлин -> Киев
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-4"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-4"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-4"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-4" name="1" value="4" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--china-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе AB8105</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Берлин</p>
+							<p><b class="bold">Аэропорт назначения:</b> Киев</p>
+							<p><b class="bold">Авиакомпания:</b> China Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 321</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:37</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-104" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-104" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-5"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-5"></label>
+						9У172
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-5"></label>
+						dragonair
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-5"></label>
+						<div class="airport__img airport__img--dragonair"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-5"></label>
+						<span class="fulltext">Boeing 737-500</span>
+						<span class="shorttext">B737</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-5"></label>
+						Минск -> Сочи
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-5"></label>
+						20.08.2015 12:05
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-5"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-5"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-5" name="1" value="5" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--dragonair"></div>
+							<h2 class="airport__title">Информация о рейсе 9У172</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Минск</p>
+							<p><b class="bold">Аэропорт назначения:</b> Сочи</p>
+							<p><b class="bold">Авиакомпания:</b> Dragonair</p>
+							<p><b class="bold">Тип воздушного судна:</b>Boeing 737-500</p>
+							<p><b class="bold">Дата начала навигации:</b> 20.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 01.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:05</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-105" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-105" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-6"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-6"></label>
+						S7151
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-6"></label>
+						Icelandair
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-6"></label>
+						<div class="airport__img airport__img--icelandair"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-6"></label>
 						<span class="fulltext">Boeing 737-800</span>
 						<span class="shorttext">B737</span>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
+						<label class="airport__label" for="checkbox-6"></label>
+						Одесса -> Москва
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
+						<label class="airport__label" for="checkbox-6"></label>
+						16.08.2015 11:57
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
+						<label class="airport__label" for="checkbox-6"></label>
+						Прилетел
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-6"></label>
 						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
 					</td>
 					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
+						<input type="radio" id="checkbox-6" name="1" value="6" class="airport__radio-button"/>
 						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+							<div class="airport__img airport__img--icelandair"></div>
+							<h2 class="airport__title">Информация о рейсе RU 681</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Одесса</p>
+							<p><b class="bold">Аэропорт назначения:</b> Москва</p>
+							<p><b class="bold">Авиакомпания:</b> Icelandair</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 737-800</p>
+							<p><b class="bold">Дата начала навигации:</b> 16.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 11:57</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-106" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-106" class="airport__close-trigger"></label>
 						</div>
 					</td>
 				</tr>
-				<tr class="airport__row">
+				<tr class="airport__row airport__row--up">
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
+						<label class="airport__label" for="checkbox-7"></label>
+						<div class="airport__status airport__status--up"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
+						<label class="airport__label" for="checkbox-7"></label>
+						EY068
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
+						<label class="airport__label" for="checkbox-7"></label>
+						Klm
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
+						<label class="airport__label" for="checkbox-7"></label>
+						<div class="airport__img airport__img--klm"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-7"></label>
+						<span class="fulltext">Airbus 320</span>
+						<span class="shorttext">А320</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-7"></label>
+						Москва(Домодедово) -> Франкфурт-На-Майне
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-7"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-7"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-7"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-7" name="1" value="7" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--klm"></div>
+							<h2 class="airport__title">Информация о рейсе EY068</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Франкфурт-На-Майне</p>
+							<p><b class="bold">Авиакомпания:</b> Klm</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 320</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-107" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-107" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-8"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-8"></label>
+						OS602
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-8"></label>
+						Lufthansa
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-8"></label>
+						<div class="airport__img airport__img--lufthansa"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-8"></label>
+						<span class="fulltext">Boeing 777-200</span>
+						<span class="shorttext">B777</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-8"></label>
+						Москва(Домодедово) -> Вена(Швехат)
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-8"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-8"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-8"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-8" name="1" value="8" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--lufthansa"></div>
+							<h2 class="airport__title">Информация о рейсе OS602</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Вена(Швехат)</p>
+							<p><b class="bold">Авиакомпания:</b> Lufthansa</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 777-200</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 17.08.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-108" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-108" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-9"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-9"></label>
+						AB8105
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-9"></label>
+						NWA
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-9"></label>
+						<div class="airport__img airport__img--nwa"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-9"></label>
+						<span class="fulltext">Airbus 321</span>
+						<span class="shorttext">А321</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-9"></label>
+						Берлин -> Киев
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-9"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-9"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-9"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-9" name="1" value="9" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--nwa"></div>
+							<h2 class="airport__title">Информация о рейсе AB8105</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Берлин</p>
+							<p><b class="bold">Аэропорт назначения:</b> Киев</p>
+							<p><b class="bold">Авиакомпания:</b> NWA</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 321</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:37</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-109" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-109" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-10"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-10"></label>
+						9У172
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-10"></label>
+						Sabena
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-10"></label>
+						<div class="airport__img airport__img--sabena"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-10"></label>
+						<span class="fulltext">Boeing 737-500</span>
+						<span class="shorttext">B737</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-10"></label>
+						Минск -> Сочи
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-10"></label>
+						20.08.2015 12:05
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-10"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-10"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-10" name="1" value="10" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--sabena"></div>
+							<h2 class="airport__title">Информация о рейсе 9У172</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Минск</p>
+							<p><b class="bold">Аэропорт назначения:</b> Сочи</p>
+							<p><b class="bold">Авиакомпания:</b> Sabena</p>
+							<p><b class="bold">Тип воздушного судна:</b>Boeing 737-500</p>
+							<p><b class="bold">Дата начала навигации:</b> 20.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 01.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:05</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-110" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-110" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-11"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-11"></label>
+						S7151
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-11"></label>
+						Singapore Airlines
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-11"></label>
+						<div class="airport__img airport__img--singapore-airlines2"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-11"></label>
 						<span class="fulltext">Boeing 737-800</span>
 						<span class="shorttext">B737</span>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
+						<label class="airport__label" for="checkbox-11"></label>
+						Одесса -> Москва
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
+						<label class="airport__label" for="checkbox-11"></label>
+						16.08.2015 11:57
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
+						<label class="airport__label" for="checkbox-11"></label>
+						Вылетел
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-11"></label>
 						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
 					</td>
 					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
+						<input type="radio" id="checkbox-11" name="1" value="11" class="airport__radio-button"/>
 						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+							<div class="airport__img airport__img--singapore-airlines2"></div>
+							<h2 class="airport__title">Информация о рейсе RU 681</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Одесса</p>
+							<p><b class="bold">Аэропорт назначения:</b> Москва</p>
+							<p><b class="bold">Авиакомпания:</b> Singapore Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 737-800</p>
+							<p><b class="bold">Дата начала навигации:</b> 16.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 11:57</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-111" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-111" class="airport__close-trigger"></label>
 						</div>
 					</td>
 				</tr>
-				<tr class="airport__row">
+				<tr class="airport__row airport__row--down">
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
+						<label class="airport__label" for="checkbox-12"></label>
+						<div class="airport__status airport__status--down"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
+						<label class="airport__label" for="checkbox-12"></label>
+						EY068
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-12"></label>
+						 South African Airways
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-12"></label>
+						<div class="airport__img airport__img--southafricanairways2"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-12"></label>
+						<span class="fulltext">Airbus 320</span>
+						<span class="shorttext">А320</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-12"></label>
+						Москва(Домодедово) -> Франкфурт-На-Майне
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-12"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-12"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-12"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-12" name="1" value="12" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--southafricanairways2"></div>
+							<h2 class="airport__title">Информация о рейсе EY068</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Франкфурт-На-Майне</p>
+							<p><b class="bold">Авиакомпания:</b> South African Airways</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 320</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-112" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-112" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-13"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-13"></label>
+						OS602
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-13"></label>
+						Southwest
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-13"></label>
+						<div class="airport__img airport__img--southwest2"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-13"></label>
+						<span class="fulltext">Boeing 777-200</span>
+						<span class="shorttext">B777</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-13"></label>
+						Москва(Домодедово) -> Вена(Швехат)
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-13"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-13"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-13"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-13" name="1" value="13" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--southwest2"></div>
+							<h2 class="airport__title">Информация о рейсе OS602</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Вена(Швехат)</p>
+							<p><b class="bold">Авиакомпания:</b> Southwest</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 777-200</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 17.08.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-113" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-113" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-14"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-14"></label>
+						AB8105
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-14"></label>
+						Spirit
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-14"></label>
+						<div class="airport__img airport__img--spirit"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-14"></label>
+						<span class="fulltext">Airbus 321</span>
+						<span class="shorttext">А321</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-14"></label>
+						Берлин -> Киев
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-14"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-14"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-14"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-14" name="1" value="14" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--spirit"></div>
+							<h2 class="airport__title">Информация о рейсе AB8105</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Берлин</p>
+							<p><b class="bold">Аэропорт назначения:</b> Киев</p>
+							<p><b class="bold">Авиакомпания:</b> Spirit</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 321</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:37</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-114" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-114" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-15"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-15"></label>
+						9У172
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-15"></label>
+						Swiss
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-15"></label>
+						<div class="airport__img airport__img--swiss"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-15"></label>
+						<span class="fulltext">Boeing 737-500</span>
+						<span class="shorttext">B737</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-15"></label>
+						Минск -> Сочи
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-15"></label>
+						20.08.2015 12:05
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-15"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-15"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-15" name="1" value="15" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--swiss"></div>
+							<h2 class="airport__title">Информация о рейсе 9У172</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Минск</p>
+							<p><b class="bold">Аэропорт назначения:</b> Сочи</p>
+							<p><b class="bold">Авиакомпания:</b> Swiss</p>
+							<p><b class="bold">Тип воздушного судна:</b>Boeing 737-500</p>
+							<p><b class="bold">Дата начала навигации:</b> 20.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 01.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:05</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-115" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-115" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-16"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-16"></label>
+						S7151
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-16"></label>
 						British Airways
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-16"></label>
 						<div class="airport__img airport__img--british-airways"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-16"></label>
 						<span class="fulltext">Boeing 737-800</span>
 						<span class="shorttext">B737</span>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
+						<label class="airport__label" for="checkbox-16"></label>
+						Одесса -> Москва
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
+						<label class="airport__label" for="checkbox-16"></label>
+						16.08.2015 11:57
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
+						<label class="airport__label" for="checkbox-16"></label>
+						Прилетел
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-16"></label>
 						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
 					</td>
 					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
+						<input type="radio" id="checkbox-16" name="1" value="16" class="airport__radio-button"/>
 						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
 							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+							<h2 class="airport__title">Информация о рейсе RU 681</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Одесса</p>
+							<p><b class="bold">Аэропорт назначения:</b> Москва</p>
+							<p><b class="bold">Авиакомпания:</b> British Airways</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 737-800</p>
+							<p><b class="bold">Дата начала навигации:</b> 16.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 11:57</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-116" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-116" class="airport__close-trigger"></label>
 						</div>
 					</td>
 				</tr>
-				<tr class="airport__row">
+				<tr class="airport__row airport__row--up">
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
+						<label class="airport__label" for="checkbox-17"></label>
+						<div class="airport__status airport__status--up"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
+						<label class="airport__label" for="checkbox-17"></label>
+						EY068
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-17"></label>
 						British Airways
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-17"></label>
+						<div class="airport__img airport__img--brussels-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-17"></label>
+						<span class="fulltext">Airbus 320</span>
+						<span class="shorttext">А320</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-17"></label>
+						Москва(Домодедово) -> Франкфурт-На-Майне
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-17"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-17"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-17"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-17" name="1" value="17" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--brussels-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе EY068</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Франкфурт-На-Майне</p>
+							<p><b class="bold">Авиакомпания:</b> Brussels Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 320</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-117" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-117" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-18"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-18"></label>
+						OS602
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-18"></label>
+						Cathay Pacific
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-18"></label>
+						<div class="airport__img airport__img--cathaypacific"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-18"></label>
+						<span class="fulltext">Boeing 777-200</span>
+						<span class="shorttext">B777</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-18"></label>
+						Москва(Домодедово) -> Вена(Швехат)
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-18"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-18"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-18"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-18" name="1" value="18" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--cathaypacific"></div>
+							<h2 class="airport__title">Информация о рейсе OS602</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Вена(Швехат)</p>
+							<p><b class="bold">Авиакомпания:</b> Cathay Pacific</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 777-200</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 17.08.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-118" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-118" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-19"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-19"></label>
+						AB8105
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-19"></label>
+						China Airlines
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-19"></label>
+						<div class="airport__img airport__img--china-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-19"></label>
+						<span class="fulltext">Airbus 321</span>
+						<span class="shorttext">А321</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-19"></label>
+						Берлин -> Киев
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-19"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-19"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-19"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-19" name="1" value="19" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--china-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе AB8105</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Берлин</p>
+							<p><b class="bold">Аэропорт назначения:</b> Киев</p>
+							<p><b class="bold">Авиакомпания:</b> China Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 321</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:37</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-119" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-119" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-20"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-20"></label>
+						9У172
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-20"></label>
+						Continental Airlines
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-20"></label>
+						<div class="airport__img airport__img--continental-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-20"></label>
+						<span class="fulltext">Boeing 737-500</span>
+						<span class="shorttext">B737</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-20"></label>
+						Минск -> Сочи
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-20"></label>
+						20.08.2015 12:05
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-20"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-20"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-20" name="1" value="20" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--continental-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе 9У172</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Минск</p>
+							<p><b class="bold">Аэропорт назначения:</b> Сочи</p>
+							<p><b class="bold">Авиакомпания:</b> Continental Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b>Boeing 737-500</p>
+							<p><b class="bold">Дата начала навигации:</b> 20.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 01.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:05</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-120" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-120" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-21"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-21"></label>
+						S7151
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-21"></label>
+						British Airways
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-21"></label>
 						<div class="airport__img airport__img--british-airways"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-21"></label>
 						<span class="fulltext">Boeing 737-800</span>
 						<span class="shorttext">B737</span>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
+						<label class="airport__label" for="checkbox-21"></label>
+						Одесса -> Москва
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
+						<label class="airport__label" for="checkbox-21"></label>
+						16.08.2015 11:57
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
+						<label class="airport__label" for="checkbox-21"></label>
+						Вылетел
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-21"></label>
 						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
 					</td>
 					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
+						<input type="radio" id="checkbox-21" name="1" value="21" class="airport__radio-button"/>
 						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
 							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+							<h2 class="airport__title">Информация о рейсе RU 681</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Одесса</p>
+							<p><b class="bold">Аэропорт назначения:</b> Москва</p>
+							<p><b class="bold">Авиакомпания:</b> British Airways</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 737-800</p>
+							<p><b class="bold">Дата начала навигации:</b> 16.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 11:57</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-121" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-121" class="airport__close-trigger"></label>
 						</div>
 					</td>
 				</tr>
-				<tr class="airport__row">
+				<tr class="airport__row airport__row--down">
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
+						<label class="airport__label" for="checkbox-22"></label>
+						<div class="airport__status airport__status--down"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
+						<label class="airport__label" for="checkbox-22"></label>
+						EY068
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-22"></label>
 						British Airways
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-22"></label>
+						<div class="airport__img airport__img--brussels-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-22"></label>
+						<span class="fulltext">Airbus 320</span>
+						<span class="shorttext">А320</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-22"></label>
+						Москва(Домодедово) -> Франкфурт-На-Майне
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-22"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-22"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-22"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-22" name="1" value="22" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--brussels-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе EY068</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Франкфурт-На-Майне</p>
+							<p><b class="bold">Авиакомпания:</b> Brussels Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 320</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-122" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-122" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-23"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-23"></label>
+						OS602
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-23"></label>
+						Cathay Pacific
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-23"></label>
+						<div class="airport__img airport__img--cathaypacific"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-23"></label>
+						<span class="fulltext">Boeing 777-200</span>
+						<span class="shorttext">B777</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-23"></label>
+						Москва(Домодедово) -> Вена(Швехат)
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-23"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-23"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-23"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-23" name="1" value="23" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--cathaypacific"></div>
+							<h2 class="airport__title">Информация о рейсе OS602</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Вена(Швехат)</p>
+							<p><b class="bold">Авиакомпания:</b> Cathay Pacific</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 777-200</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 17.08.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-123" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-123" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-24"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-24"></label>
+						AB8105
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-24"></label>
+						China Airlines
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-24"></label>
+						<div class="airport__img airport__img--china-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-24"></label>
+						<span class="fulltext">Airbus 321</span>
+						<span class="shorttext">А321</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-24"></label>
+						Берлин -> Киев
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-24"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-24"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-24"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-24" name="1" value="24" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--china-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе AB8105</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Берлин</p>
+							<p><b class="bold">Аэропорт назначения:</b> Киев</p>
+							<p><b class="bold">Авиакомпания:</b> China Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 321</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:37</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-124" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-124" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-25"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-25"></label>
+						9У172
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-25"></label>
+						Continental Airlines
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-25"></label>
+						<div class="airport__img airport__img--continental-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-25"></label>
+						<span class="fulltext">Boeing 737-500</span>
+						<span class="shorttext">B737</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-25"></label>
+						Минск -> Сочи
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-25"></label>
+						20.08.2015 12:05
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-25"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-25"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-25" name="1" value="25" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--continental-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе 9У172</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Минск</p>
+							<p><b class="bold">Аэропорт назначения:</b> Сочи</p>
+							<p><b class="bold">Авиакомпания:</b> Continental Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b>Boeing 737-500</p>
+							<p><b class="bold">Дата начала навигации:</b> 20.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 01.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:05</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-125" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-125" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-26"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-26"></label>
+						S7151
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-26"></label>
+						British Airways
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-26"></label>
 						<div class="airport__img airport__img--british-airways"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-26"></label>
 						<span class="fulltext">Boeing 737-800</span>
 						<span class="shorttext">B737</span>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
+						<label class="airport__label" for="checkbox-26"></label>
+						Одесса -> Москва
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
+						<label class="airport__label" for="checkbox-26"></label>
+						16.08.2015 11:57
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
+						<label class="airport__label" for="checkbox-26"></label>
+						Прилетел
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-26"></label>
 						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
 					</td>
 					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
+						<input type="radio" id="checkbox-26" name="1" value="26" class="airport__radio-button"/>
 						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
 							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+							<h2 class="airport__title">Информация о рейсе RU 681</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Одесса</p>
+							<p><b class="bold">Аэропорт назначения:</b> Москва</p>
+							<p><b class="bold">Авиакомпания:</b> British Airways</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 737-800</p>
+							<p><b class="bold">Дата начала навигации:</b> 16.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 11:57</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-126" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-126" class="airport__close-trigger"></label>
 						</div>
 					</td>
 				</tr>
-				<tr class="airport__row">
+				<tr class="airport__row airport__row--up">
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
+						<label class="airport__label" for="checkbox-27"></label>
+						<div class="airport__status airport__status--up"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
+						<label class="airport__label" for="checkbox-27"></label>
+						EY068
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-27"></label>
 						British Airways
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-27"></label>
+						<div class="airport__img airport__img--brussels-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-27"></label>
+						<span class="fulltext">Airbus 320</span>
+						<span class="shorttext">А320</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-27"></label>
+						Москва(Домодедово) -> Франкфурт-На-Майне
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-27"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-27"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-27"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-27" name="1" value="27" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--brussels-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе EY068</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Франкфурт-На-Майне</p>
+							<p><b class="bold">Авиакомпания:</b> Brussels Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 320</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-127" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-127" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-28"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-28"></label>
+						OS602
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-28"></label>
+						Cathay Pacific
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-28"></label>
+						<div class="airport__img airport__img--cathaypacific"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-28"></label>
+						<span class="fulltext">Boeing 777-200</span>
+						<span class="shorttext">B777</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-28"></label>
+						Москва(Домодедово) -> Вена(Швехат)
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-28"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-28"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-28"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-28" name="1" value="28" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--cathaypacific"></div>
+							<h2 class="airport__title">Информация о рейсе OS602</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Вена(Швехат)</p>
+							<p><b class="bold">Авиакомпания:</b> Cathay Pacific</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 777-200</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 17.08.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-128" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-128" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-29"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-29"></label>
+						AB8105
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-29"></label>
+						China Airlines
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-29"></label>
+						<div class="airport__img airport__img--china-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-29"></label>
+						<span class="fulltext">Airbus 321</span>
+						<span class="shorttext">А321</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-29"></label>
+						Берлин -> Киев
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-29"></label>
+						18.08.2015 17:37
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-29"></label>
+						Вылетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-29"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-29" name="1" value="29" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--china-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе AB8105</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Берлин</p>
+							<p><b class="bold">Аэропорт назначения:</b> Киев</p>
+							<p><b class="bold">Авиакомпания:</b> China Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 321</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:37</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-129" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-129" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--down">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-30"></label>
+						<div class="airport__status airport__status--down"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-30"></label>
+						9У172
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-30"></label>
+						Continental Airlines
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-30"></label>
+						<div class="airport__img airport__img--continental-airlines"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-30"></label>
+						<span class="fulltext">Boeing 737-500</span>
+						<span class="shorttext">B737</span>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-30"></label>
+						Минск -> Сочи
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-30"></label>
+						20.08.2015 12:05
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-30"></label>
+						Прилетел
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-30"></label>
+						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+					</td>
+					<td class="airport__trigger">
+						<input type="radio" id="checkbox-30" name="1" value="30" class="airport__radio-button"/>
+						<div class="airport__popup">
+							<div class="airport__img airport__img--continental-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе 9У172</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Минск</p>
+							<p><b class="bold">Аэропорт назначения:</b> Сочи</p>
+							<p><b class="bold">Авиакомпания:</b> Continental Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b>Boeing 737-500</p>
+							<p><b class="bold">Дата начала навигации:</b> 20.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 01.09.2015</p>
+							<p><b class="bold">Вылет:</b> 12:05</p>
+							<p><b class="bold">Прилет:</b> 05:33</p>
+							<input type="radio" id="checkbox-130" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-130" class="airport__close-trigger"></label>
+						</div>
+					</td>
+				</tr>
+				<tr class="airport__row airport__row--up">
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-31"></label>
+						<div class="airport__status airport__status--up"></div>
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-31"></label>
+						S7151
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-31"></label>
+						British Airways
+					</td>
+					<td class="airport__item">
+						<label class="airport__label" for="checkbox-31"></label>
 						<div class="airport__img airport__img--british-airways"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-31"></label>
 						<span class="fulltext">Boeing 737-800</span>
 						<span class="shorttext">B737</span>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
+						<label class="airport__label" for="checkbox-31"></label>
+						Одесса -> Москва
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
+						<label class="airport__label" for="checkbox-31"></label>
+						16.08.2015 11:57
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
+						<label class="airport__label" for="checkbox-31"></label>
+						Вылетел
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-31"></label>
 						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
 					</td>
 					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
+						<input type="radio" id="checkbox-31" name="1" value="31" class="airport__radio-button"/>
 						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
 							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+							<h2 class="airport__title">Информация о рейсе RU 681</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Одесса</p>
+							<p><b class="bold">Аэропорт назначения:</b> Москва</p>
+							<p><b class="bold">Авиакомпания:</b> British Airways</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 737-800</p>
+							<p><b class="bold">Дата начала навигации:</b> 16.08.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 11:57</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-131" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-131" class="airport__close-trigger"></label>
 						</div>
 					</td>
 				</tr>
-				<tr class="airport__row">
+				<tr class="airport__row airport__row--down">
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
+						<label class="airport__label" for="checkbox-32"></label>
+						<div class="airport__status airport__status--down"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
+						<label class="airport__label" for="checkbox-32"></label>
+						EY068
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
+						<label class="airport__label" for="checkbox-32"></label>
+						Brussels Airlines
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
+						<label class="airport__label" for="checkbox-32"></label>
+						<div class="airport__img airport__img--brussels-airlines"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
+						<label class="airport__label" for="checkbox-32"></label>
+						<span class="fulltext">Airbus 320</span>
+						<span class="shorttext">А320</span>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
+						<label class="airport__label" for="checkbox-32"></label>
+						Москва(Домодедово) -> Франкфурт-На-Майне
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
+						<label class="airport__label" for="checkbox-32"></label>
+						18.08.2015 17:37
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
+						<label class="airport__label" for="checkbox-32"></label>
+						Прилетел
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-32"></label>
 						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
 					</td>
 					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
+						<input type="radio" id="checkbox-32" name="1" value="32" class="airport__radio-button"/>
 						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+							<div class="airport__img airport__img--brussels-airlines"></div>
+							<h2 class="airport__title">Информация о рейсе EY068</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Франкфурт-На-Майне</p>
+							<p><b class="bold">Авиакомпания:</b> Brussels Airlines</p>
+							<p><b class="bold">Тип воздушного судна:</b> Airbus 320</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 27.09.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-132" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-132" class="airport__close-trigger"></label>
 						</div>
 					</td>
 				</tr>
-				<tr class="airport__row">
+				<tr class="airport__row airport__row--up">
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
+						<label class="airport__label" for="checkbox-33"></label>
+						<div class="airport__status airport__status--up"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
+						<label class="airport__label" for="checkbox-33"></label>
+						OS602
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
+						<label class="airport__label" for="checkbox-33"></label>
+						Cathay Pacific
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
+						<label class="airport__label" for="checkbox-33"></label>
+						<div class="airport__img airport__img--cathaypacific"></div>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
+						<label class="airport__label" for="checkbox-33"></label>
+						<span class="fulltext">Boeing 777-200</span>
+						<span class="shorttext">B777</span>
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
+						<label class="airport__label" for="checkbox-33"></label>
+						Москва(Домодедово) -> Вена(Швехат)
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
+						<label class="airport__label" for="checkbox-33"></label>
+						18.08.2015 17:37
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
+						<label class="airport__label" for="checkbox-33"></label>
+						Вылетел
 					</td>
 					<td class="airport__item">
-						<label for="checkbox-1"></label>
+						<label class="airport__label" for="checkbox-33"></label>
 						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
 					</td>
 					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
+						<input type="radio" id="checkbox-33" name="1" value="33" class="airport__radio-button"/>
 						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
+							<div class="airport__img airport__img--cathaypacific"></div>
+							<h2 class="airport__title">Информация о рейсе OS602</h2>
+							<p><b class="bold">Аэропорт отправления:</b> Москва</p>
+							<p><b class="bold">Аэропорт назначения:</b> Вена(Швехат)</p>
+							<p><b class="bold">Авиакомпания:</b> Cathay Pacific</p>
+							<p><b class="bold">Тип воздушного судна:</b> Boeing 777-200</p>
+							<p><b class="bold">Дата начала навигации:</b> 18.07.2015</p>
+							<p><b class="bold">Дата окончания навигации:</b> 17.08.2015</p>
+							<p><b class="bold">Вылет:</b> 17:37</p>
+							<p><b class="bold">Прилет:</b> 02:33</p>
+							<input type="radio" id="checkbox-133" name="1" value="1" class="airport__close-radio"/>
+							<label class="airport__label" for="checkbox-133" class="airport__close-trigger"></label>
 						</div>
 					</td>
 				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				<tr class="airport__row">
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						RU 681ww
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						British Airways
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<div class="airport__img airport__img--british-airways"></div>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						<span class="fulltext">Boeing 737-800</span>
-						<span class="shorttext">B737</span>
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Москва(Домодедово)->Франкфурт-На-Майне
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						18.07.2015 11:57
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						Boeing 737-800
-					</td>
-					<td class="airport__item">
-						<label for="checkbox-1"></label>
-						информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-					</td>
-					<td class="airport__trigger">
-						<input type="radio" id="checkbox-1" name="1" value="1" class="airport__radio-button"/>
-						<div class="airport__popup">
-							RU 681
-							<br>
-							RU 681
-							<br>
-							British Airways
-							<br>
-							<div class="airport__img airport__img--british-airways"></div>
-							<br>
-							Boeing 737-800
-							<br>
-							Москва(Домодедово)->Франкфурт-На-Майне
-							<br>
-							18.07.2015 11:57
-							<br>
-							Boeing 737-800
-							<br>
-							информацию по рейсу можно получить в авиакомпании или справочной службе аэропорта по тел.+7 495 933 66 66
-						</div>
-					</td>
-				</tr>
-				
 			</table>
 		</div>
 	</div>
